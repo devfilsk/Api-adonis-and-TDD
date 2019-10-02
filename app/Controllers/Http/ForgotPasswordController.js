@@ -1,7 +1,8 @@
-'use strict'
+
 
 const { randomBytes } = require('crypto');
 const { promisify } = require('util');
+
 const Mail = use('Mail');
 const Env = use('Env');
 /** @type {typeof import('@adonisjs/lucid/src/Lucid/Model*')} */
